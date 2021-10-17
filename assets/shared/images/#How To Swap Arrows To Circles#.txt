@@ -1,0 +1,7 @@
+1. Rename NOTE_assets to something random like ' NOTE_assetsalt '.
+2. Rename NOTE_assetsCIRCLES to ' NOTE_assets '.
+
+How to undo:
+
+1. Rename NOTE_assets (which should be the circles.) back to ' NOTE_assetsCIRCLES '.
+2. Rename the original arrows back to ' NOTE_assets '.

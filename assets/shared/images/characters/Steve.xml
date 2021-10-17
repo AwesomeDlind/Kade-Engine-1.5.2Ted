@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Steve.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Steve Sing Note DOWN0000" x="489" y="70" width="486" height="847" frameX="0" frameY="-5" frameWidth="470" frameHeight="735"/>
+	<SubTexture name="Steve Sing Note LEFT0000" x="9" y="70" width="477" height="847"/>
+	<SubTexture name="Steve Sing Note RIGHT0000" x="1497" y="70" width="543" height="898" frameX="0" frameY="-1" frameWidth="465" frameHeight="793"/>
+	<SubTexture name="Steve Sing Note UP0000" x="978" y="70" width="492" height="874" frameX="-1" frameY="0" frameWidth="409" frameHeight="818"/>
+	<SubTexture name="Steve idle dance0000" x="2038" y="46" width="606" height="817" frameX="-6" frameY="0" frameWidth="429" frameHeight="767"/>
+</TextureAtlas>
