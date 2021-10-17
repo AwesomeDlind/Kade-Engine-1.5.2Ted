@@ -45,8 +45,7 @@ class Ratings
             accuracy >= 80, // A
             accuracy >= 70, // B
             accuracy >= 60, // C
-            accuracy < 60, // D
-            accuracy == 100 // Perfect
+            accuracy < 60 // D
         ];
 
         for(i in 0...wifeConditions.length)
@@ -88,8 +87,6 @@ class Ratings
                         ranking += " C";
                     case 15:
                         ranking += " D";
-                    case 16:
-                        ranking += " PERFECT";
                 }
                 break;
             }
