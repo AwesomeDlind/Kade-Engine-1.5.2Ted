@@ -20,6 +20,10 @@ class Ratings
             ranking = "(SDM)";
         else if (PlayState.misses < 10 && PlayState.comboBreaks < 10) // Single Digit Combo Breaks And Misses
             ranking = "(SDCBAM)";
+        else if (PlayState.comboBreaks > 10 && PlayState.misses == 0) // Combo Breaks
+            ranking = "(CB)";
+        else if (PlayState.misses > 10 && PlayState.comboBreaks == 0) // Misses
+            ranking = "(M)";
         else
             ranking = "(Clear)";
 
@@ -142,6 +146,6 @@ class Ratings
         " | Combo:" + PlayState.combo +                                                                                         // Combo
         " | Combo Breaks:" + PlayState.comboBreaks +                                                                            // Combo Breaks
         " | Accuracy:" + (FlxG.save.data.botplay ? "N/A" : HelperFunctions.truncateFloat(accuracy, 2) + " %") +  			    // Accuracy
-        " | " + GenerateLetterRank(accuracy) : ""); 																		   // Letter Rank
+        " | " + GenerateLetterRank(accuracy) : "");		    																   // Letter Rank
     }
 }
